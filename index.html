@@ -4,9 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+  <title>CSS grid</title>
+  <style>
+    .father{
+      display: grid;
+      grid-template-columns : 30px 50px;
+      grid-template-rows : 30px 12px;
+      grid-gap : 5px;
+    }
+    .box{
+      background-color:  #e67e22;
+    }
+  </style>
 </head>
 <body>
+  <div class="father">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
 
 </body>
 
